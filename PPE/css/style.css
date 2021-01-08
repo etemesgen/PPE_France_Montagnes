@@ -61,12 +61,12 @@ header #loop{
 }
 
 #section1 img{
+    max-width: auto;
     margin: 0.5rem 0rem 0rem 0rem;
     width: 168.6rem;
 }
 
 #section1 p{
-    max-width: 100rem;
     position: absolute;
     margin: -36rem 0 0 32rem;
     font-size: 10rem;
