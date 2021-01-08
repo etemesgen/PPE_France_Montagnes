@@ -15,7 +15,7 @@ body{
    text-decoration: none;
    list-style: none;
 }
-/*ERROR: Menu padding problem*/
+
 header #navbar img{
     max-width: 12rem;
     margin-left: 20rem;
