@@ -66,6 +66,7 @@ header #loop{
 }
 
 #section1 p{
+    max-width: 100rem;
     position: absolute;
     margin: -36rem 0 0 32rem;
     font-size: 10rem;
