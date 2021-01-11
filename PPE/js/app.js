@@ -1,12 +1,15 @@
-window.onscroll = function() {myFunction()};
+//Menu fil d'ariane
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+const menuList = document.querySelectorAll("header div ul li a");
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
+     for (let i = 0; i < menuList.length; i++) {
+     menuList[i].addEventListener("click", () => {
+      for (let i = 0; i < menuList.length; i++) {
+        menuList[i].classList.remove("active");
+      }
+      menuList[i].classList.remove("active");
+      menuList[i].classList.add("active");
+    });
   }
-}
+
+  console.log(menuList);

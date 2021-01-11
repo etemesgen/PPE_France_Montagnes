@@ -2,6 +2,7 @@
 html{
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -25,7 +26,9 @@ header #navbar img{
 #navbar {
     overflow: hidden;
     background-color: rgb(219, 219, 219);
+    width: 100%;
 }
+
 #navbar ul{
     margin: -5rem 0rem 0rem 40rem;
     position: fixed;
@@ -44,25 +47,19 @@ header #navbar img{
     font-size: 17px;
 }
   
-#navbar a:hover {
+#navbar .active, #navbar a:hover {
     background-color: #222;
     color: #fff;
-}
-  
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 header #loop{
     position: absolute;
     margin: -4.5rem 0 0 105rem;
+    cursor: pointer;
 }
 
 #section1 img{
     max-width: auto;
-    margin: 0.5rem 0rem 0rem 0rem;
     width: 168.6rem;
 }
 
@@ -72,6 +69,10 @@ header #loop{
     font-size: 10rem;
     color: #fff;
     font-weight: bold;
+}
+
+#guide_des_stations{
+    padding: 0.1rem;
 }
 
 #guide_des_stations p{
@@ -129,6 +130,11 @@ footer #coordonnees p{
 
 footer #coordonnees{
     margin: -42rem 0rem 0rem 0rem;
+}
+
+footer #coordonnees p a{
+    text-decoration: none;
+    color: #fff;
 }
 
 footer #copyright{
